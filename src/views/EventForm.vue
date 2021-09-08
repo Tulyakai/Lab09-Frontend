@@ -34,7 +34,6 @@
 </template>
 <script>
 import EventService from '@/services/EventService.js'
-import BaseInput from '@/components/BaseInput'
 export default {
   inject: ['GStore'],
   data() {
@@ -46,9 +45,6 @@ export default {
         location: ''
       }
     }
-  },
-  componets: {
-    BaseInput
   },
   methods: {
     saveEvent() {
